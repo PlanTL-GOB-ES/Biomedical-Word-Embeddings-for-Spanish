@@ -43,8 +43,10 @@ The example below shows the structure for the Wikipedia subset with 50 dimension
 
 </pre>
 
+
 ## Digital Object Identifier (DOI) and access to dataset files
 
+https://doi.org/10.5281/zenodo.2542722
 
 
 ## Contact
