@@ -4,8 +4,12 @@ This repository contains the word embeddings generated from Spanish corpora.
 
 ## Corpora used
 
-* Scielo Full-Text in Spanish: We retrieved all the full-text available in Scielo.org (until December/2018) and processed them into sentences. 
-* Wikipedia Health: We retrieved all articles from the following Wikipedia categories: Pharmacology, Pharmacy, Medicine and Biology.
+* Scielo Full-Text in Spanish: We retrieved all the full-text available in Scielo.org (until December/2018) and processed them into sentences. Scielo.org node contains all Spanish articles, thus includes Latin and European Spanish.
+  * Sentences: 3,267,556
+  * Tokens: 100,116,298
+* Wikipedia Health: We retrieved all articles from the following Wikipedia categories: Pharmacology, Pharmacy, Medicine and Biology. Data were retrieved during December/2018.
+  * Sentences: 4,030,833
+  * Tokens: 82,006,270
 * Scielo + Wikipedia Health: We concatenated the previous two corpora.
 
 ## Embeddings generated
