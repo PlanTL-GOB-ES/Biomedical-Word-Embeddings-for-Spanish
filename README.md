@@ -18,7 +18,7 @@ Two different approaches were used: Word2Vec and fastText.
 
 ### Word2Vec
 
-We used the python Gensim package (https://radimrehurek.com/gensim/index.html) to train different Word2Vect embeddings.
+We used the python Gensim package (https://radimrehurek.com/gensim/index.html) to train different Word2Vec embeddings.
 The following configurations were set:
 * Embedding dimension: 50, 150 and 300.
 * Epochs 15
@@ -33,6 +33,21 @@ We used the fastText (https://fasttext.cc/) to train word embeddings.
 We kept all standard options for training.
 The following corpora were used: Scielo, Wikipedia and Scielo + Wikipedia
 
+### Evaluation
+
+Evaluation was carried out by both extrinsic (with a Named Entity Recognition framework) and intrinsic, with the three already available datasets for such task UMNSRS-sim, UMNSRS-rel, and MayoSRS.  
+With NER, we defined that the best model was with 300 dimensions, and projected the words using Principal Component Analysis.
+
+Further details about evaluation and the steps performed can be found in our paper in this repository:
+<pre>
+Biomedical_Word_Embeddings_for_Spanish__Development_and_Evaluation.pdf
+</pre>
+
+The PCA plots for our embedding and a general-domain embedding are available in this repository also:
+<pre>
+our_embeddings.pdf
+sbwc_embeddings.pdf
+</pre>
 ## Directory Structure
 
 The example below shows the structure for the Wikipedia subset with 50 dimensions. All other subsets have the same structure
