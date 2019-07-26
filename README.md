@@ -48,6 +48,14 @@ The PCA plots for our embedding and a general-domain embedding are available in 
 our_embeddings.pdf
 sbwc_embeddings.pdf
 </pre>
+
+The translations for Spanish of the UMNSRS datasets and the Mayo one are inside this Github repository:
+<pre>
+Mayo_Filtered.tsv
+UMNSRS_Relatedness_Filtered.tsv
+UMNSRS_Similarity_Filtered.tsv
+</pre>
+
 ## Directory Structure
 
 The example below shows the structure for the Wikipedia subset with 50 dimensions. All other subsets have the same structure
