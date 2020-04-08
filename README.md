@@ -82,6 +82,7 @@ Felipe Soares (felipe.soares@bsc.es)
 
 ## How to cite
 
+<pre>
 @article{Soares2019,
 author = "Felipe Soares and Marta Villegas and Aitor Gonzalez-Agirre and Martin Krallinger and Jordi Armengol-Estapé",
 title = "{Biomedical Word Embeddings for Spanish: Development and Evaluation}",
@@ -90,6 +91,7 @@ month = "4",
 url = "https://figshare.com/articles/Biomedical_Word_Embeddings_for_Spanish_Development_and_Evaluation/7807928",
 doi = "10.6084/m9.figshare.7807928.v2"
 }
+</pre>
 
 ## License
 
