@@ -1,6 +1,10 @@
-# Embeddings
+# Biomedical Word Embeddings for Spanish: Development and Evaluation
 
-This repository contains the word embeddings generated from Spanish corpora.
+This repository contains the biomedical word embeddings generated from Spanish corpora.
+
+## Digital Object Identifier (DOI) and access to files
+
+https://doi.org/10.5281/zenodo.2542722
 
 ## Corpora used
 
@@ -10,38 +14,35 @@ This repository contains the word embeddings generated from Spanish corpora.
 * Wikipedia Health: We retrieved all articles from the following Wikipedia categories: Pharmacology, Pharmacy, Medicine and Biology. Data were retrieved during December/2018.
   * Sentences: 4,030,833
   * Tokens: 82,006,270
-* Scielo + Wikipedia Health: We concatenated the previous two corpora.
+* Scielo+Wikipedia Health: We concatenated the previous two corpora.
 
 ## Embeddings generated
 
-Two different approaches were used: Word2Vec and fastText.
+Two different approaches were used: [Word2Vec](https://github.com/tmikolov/word2vec) and [fastText](https://fasttext.cc/) .
 
 ### Word2Vec
 
-We used the python Gensim package (https://radimrehurek.com/gensim/index.html) to train different Word2Vec embeddings.
+We used the python [Gensim package](https://radimrehurek.com/gensim/index.html) to train different Word2Vec embeddings.
 The following configurations were set:
 * Embedding dimension: 50, 150 and 300.
 * Epochs 15
 * Window size: 10
 * Minimum word count: 5
 * Algorithm: CBOW
-* Copora: Scielo, Wikipedia and Scielo + Wikipedia
+* Copora: Scielo, Wikipedia and Scielo+Wikipedia
 
 ### fastText
 
-We used the fastText (https://fasttext.cc/) to train word embeddings.
+We used the [fastText](https://fasttext.cc/) to train word embeddings.
 We kept all standard options for training.
-The following corpora were used: Scielo, Wikipedia and Scielo + Wikipedia
+The following corpora were used: Scielo, Wikipedia and Scielo+Wikipedia
 
 ### Evaluation
 
 Evaluation was carried out by both extrinsic (with a Named Entity Recognition framework) and intrinsic, with the three already available datasets for such task UMNSRS-sim, UMNSRS-rel, and MayoSRS.  
 With NER, we defined that the best model was with 300 dimensions, and projected the words using Principal Component Analysis.
 
-Further details about evaluation and the steps performed can be found in our paper in this repository:
-<pre>
-Biomedical_Word_Embeddings_for_Spanish__Development_and_Evaluation.pdf
-</pre>
+Further details about evaluation and the steps performed can be found in our [paper](Biomedical_Word_Embeddings_for_Spanish__Development_and_Evaluation.pdf) in this respository.
 
 The PCA plots for our embedding and a general-domain embedding are available in this repository also:
 <pre>
@@ -51,9 +52,9 @@ sbwc_embeddings.pdf
 
 The translations for Spanish of the UMNSRS datasets and the Mayo one are inside this Github repository:
 <pre>
-Mayo_Filtered.tsv
-UMNSRS_Relatedness_Filtered.tsv
-UMNSRS_Similarity_Filtered.tsv
+[Mayo](Mayo_Filtered.tsv)
+[UMNSRS Relatedness](UMNSRS_Relatedness_Filtered.tsv)
+[UMNSRS Similarity](UMNSRS_Similarity_Filtered.tsv)
 </pre>
 
 ## Directory Structure
@@ -69,12 +70,6 @@ The example below shows the structure for the Wikipedia subset with 50 dimension
 ./Wikipedia/50/wiki_w10_c5_50_15epoch.w2vmodel.wv.vectors.npy # Word2Vec in gensim file
 
 </pre>
-
-
-## Digital Object Identifier (DOI) and access to dataset files
-
-https://doi.org/10.5281/zenodo.2542722
-
 
 ## Contact
 
