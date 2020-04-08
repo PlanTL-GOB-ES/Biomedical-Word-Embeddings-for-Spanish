@@ -53,7 +53,7 @@ We used the [fastText](https://fasttext.cc/) to train word embeddings.
 We kept all standard options for training.
 The following corpora were used: Scielo, Wikipedia and Scielo+Wikipedia
 
-### Evaluation
+## Evaluation
 
 Evaluation was carried out by both extrinsic (with a Named Entity Recognition framework) and intrinsic, with the three already available datasets for such task UMNSRS-sim, UMNSRS-rel, and MayoSRS.  
 With NER, we defined that the best model was with 300 dimensions, and projected the words using Principal Component Analysis.
