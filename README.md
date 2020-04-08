@@ -4,7 +4,7 @@ This repository contains the biomedical word embeddings generated from Spanish c
 
 ## Digital Object Identifier (DOI) and access to files
 
-https://doi.org/10.5281/zenodo.2542722
+https://doi.org/10.5281/zenodo.3626806
 
 ## Directory Structure
 
