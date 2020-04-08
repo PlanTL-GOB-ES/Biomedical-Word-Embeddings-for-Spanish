@@ -80,10 +80,15 @@ https://doi.org/10.5281/zenodo.2542722
 
 Felipe Soares (felipe.soares@bsc.es)
 
-## How to cite
+## License
 
-<pre>
-@article{Soares2019,
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+Copyright (c) 2018 Secretaría de Estado para el Avance Digital (SEAD)
+
+## Citation
+
+```@article{Soares2019,
 author = "Felipe Soares and Marta Villegas and Aitor Gonzalez-Agirre and Martin Krallinger and Jordi Armengol-Estapé",
 title = "{Biomedical Word Embeddings for Spanish: Development and Evaluation}",
 year = "2019",
@@ -91,10 +96,4 @@ month = "4",
 url = "https://figshare.com/articles/Biomedical_Word_Embeddings_for_Spanish_Development_and_Evaluation/7807928",
 doi = "10.6084/m9.figshare.7807928.v2"
 }
-</pre>
-
-## License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-Copyright (c) 2018 Secretaría de Estado para el Avance Digital (SEAD)
+```
