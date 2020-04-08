@@ -51,13 +51,14 @@ The PCA plots for our embedding and a general-domain embedding are available in 
 [SBWC embeddings](sbwc_embeddings.pdf)
 
 
-The translations for Spanish of the UMNSRS datasets and the Mayo one are inside this Github repository:
+The translations for Spanish in TSV format of the UMNSRS and Mayo datasets one are also availabe in this Github repository:
 
-[Mayo](Mayo_Filtered.tsv)
+
+[UMNSRS Similarity](UMNSRS_Similarity_Filtered.tsv)
 
 [UMNSRS Relatedness](UMNSRS_Relatedness_Filtered.tsv)
 
-[UMNSRS Similarity](UMNSRS_Similarity_Filtered.tsv)
+[Mayo](Mayo_Filtered.tsv)
 
 ## Directory Structure
 
