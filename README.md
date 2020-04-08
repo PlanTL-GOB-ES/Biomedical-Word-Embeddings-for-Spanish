@@ -16,7 +16,7 @@ https://doi.org/10.5281/zenodo.2542722
   * Tokens: 82,006,270
 * Scielo+Wikipedia Health: We concatenated the previous two corpora.
 
-## Embeddings generated
+## Embeddings generation
 
 Two different approaches were used: [Word2Vec](https://github.com/tmikolov/word2vec) and [fastText](https://fasttext.cc/) .
 
@@ -45,17 +45,19 @@ With NER, we defined that the best model was with 300 dimensions, and projected 
 Further details about evaluation and the steps performed can be found in our [paper](Biomedical_Word_Embeddings_for_Spanish__Development_and_Evaluation.pdf) in this respository.
 
 The PCA plots for our embedding and a general-domain embedding are available in this repository also:
-<pre>
-our_embeddings.pdf
-sbwc_embeddings.pdf
-</pre>
+
+[Our embeddings](our_embeddings.pdf)
+
+[SBWC embeddings](sbwc_embeddings.pdf)
+
 
 The translations for Spanish of the UMNSRS datasets and the Mayo one are inside this Github repository:
-<pre>
+
 [Mayo](Mayo_Filtered.tsv)
+
 [UMNSRS Relatedness](UMNSRS_Relatedness_Filtered.tsv)
+
 [UMNSRS Similarity](UMNSRS_Similarity_Filtered.tsv)
-</pre>
 
 ## Directory Structure
 
