@@ -6,6 +6,22 @@ This repository contains the biomedical word embeddings generated from Spanish c
 
 https://doi.org/10.5281/zenodo.2542722
 
+## Directory Structure
+
+The example below shows the structure for the Wikipedia subset with 50 dimensions. All other subsets have the same structure
+
+<pre>
+Wikipedia/
+    50/
+        W2V_wiki_w10_c5_50_15epoch.txt: Word2Vec in text file
+        wiki_w10_c5_50_15epoch.w2vmodel: Word2Vec in gensim file
+        wiki_w10_c5_50_15epoch.w2vmodel.trainables.syn1neg.npy: Word2Vec in gensim file
+        wiki_w10_c5_50_15epoch.w2vmodel.wv.vectors.npy: Word2Vec in gensim file
+    Wikipedia_Fasttext.bin: fastText embedding in binary file.
+    Wikipedia_Fasttext.vec: fastText embedding in text file.
+</pre>
+
+
 ## Corpora used
 
 * Scielo Full-Text in Spanish: We retrieved all the full-text available in Scielo.org (until December/2018) and processed them into sentences. Scielo.org node contains all Spanish articles, thus includes Latin and European Spanish.
@@ -60,19 +76,6 @@ The translations for Spanish in TSV format of the UMNSRS and Mayo datasets one a
 
 [Mayo](Mayo_Filtered.tsv)
 
-## Directory Structure
-
-The example below shows the structure for the Wikipedia subset with 50 dimensions. All other subsets have the same structure
-<pre>
-
-./Wikipedia/Wikipedia_Fasttext.bin # Fasttext embedding in binary file
-./Wikipedia/Wikipedia_Fasttext.vec # Fasttext embedding in text file
-./Wikipedia/50/W2V_wiki_w10_c5_50_15epoch.txt # Word2Vec in text file
-./Wikipedia/50/wiki_w10_c5_50_15epoch.w2vmodel # Word2Vec in gensim file
-./Wikipedia/50/wiki_w10_c5_50_15epoch.w2vmodel.trainables.syn1neg.npy # Word2Vec in gensim file
-./Wikipedia/50/wiki_w10_c5_50_15epoch.w2vmodel.wv.vectors.npy # Word2Vec in gensim file
-
-</pre>
 
 ## Contact
 
