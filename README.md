@@ -4,7 +4,7 @@ This repository contains the second version of the word embeddings generated fro
 
 ## Digital Object Identifier (DOI) and access to files
 
-https://doi.org/10.5281/zenodo.3626806
+https://doi.org/10.5281/zenodo.3744326
 
 ## Directory Structure
 
