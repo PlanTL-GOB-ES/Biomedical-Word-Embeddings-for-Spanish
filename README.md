@@ -216,6 +216,22 @@ To evaluate the new version of the embeddings (version v2.0), we replicated the 
     <td class="tg-0pky">89.71</td>
     <td class="tg-fymr"><b>89.74</b></td>
   </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="2">v3.0</td>
+    <td class="tg-0pky" rowspan="3">CBOW</td>
+    <td class="tg-0pky">Bio-Corpus</td>
+    <td class="tg-0pky">88.92</td>
+    <td class="tg-0pky">89.12</td>
+    <td class="tg-0pky">TBD</td>
+    <td class="tg-0pky">TBD</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Skip-gram</td>
+    <td class="tg-0pky">90.91</td>
+    <td class="tg-0pky">89.40</td>
+    <td class="tg-0pky">TBD</td>
+    <td class="tg-0pky">TBD</td>
+  </tr>
 </table>
 
 
