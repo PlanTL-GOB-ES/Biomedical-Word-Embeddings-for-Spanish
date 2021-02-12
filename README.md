@@ -219,7 +219,7 @@ To evaluate the new version of the embeddings (version v2.0), we replicated the 
   <tr>
     <td class="tg-0pky" rowspan="2">v3.0</td>
     <td class="tg-0pky">CBOW</td>
-    <td class="tg-0pky">Bio-Corpus</td>
+    <td class="tg-0pky" rowspan="2">Bio-Corpus</td>
     <td class="tg-0pky">88.92</td>
     <td class="tg-0pky">89.12</td>
     <td class="tg-0pky">TBD</td>
