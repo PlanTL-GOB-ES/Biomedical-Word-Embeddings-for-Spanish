@@ -230,7 +230,7 @@ To evaluate the new version of the embeddings (version v2.0), we replicated the 
     <td class="tg-0pky">90.91</td>
     <td class="tg-0pky">89.40</td>
     <td class="tg-0pky">89.97</td>
-    <td class="tg-0pky">89.66</td>
+    <td class="tg-0pky"><b>89.66</b></td>
   </tr>
 </table>
 
