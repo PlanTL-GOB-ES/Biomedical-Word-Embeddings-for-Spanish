@@ -222,15 +222,15 @@ To evaluate the new version of the embeddings (version v2.0), we replicated the 
     <td class="tg-0pky" rowspan="2">Bio-Corpus</td>
     <td class="tg-0pky">88.92</td>
     <td class="tg-0pky">89.12</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky">TBD</td>
+    <td class="tg-0pky">88.86</td>
+    <td class="tg-0pky">88.41</td>
   </tr>
   <tr>
     <td class="tg-0pky">Skip-gram</td>
     <td class="tg-0pky">90.91</td>
     <td class="tg-0pky">89.40</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky">TBD</td>
+    <td class="tg-0pky">89.97</td>
+    <td class="tg-0pky">89.66</td>
   </tr>
 </table>
 
