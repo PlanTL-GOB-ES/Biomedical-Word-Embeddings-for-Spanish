@@ -177,44 +177,44 @@ To evaluate the new version of the embeddings (version v2.0), we replicated the 
     <td class="tg-0pky">Wiki</td>
     <td class="tg-0pky">86.55</td>
     <td class="tg-0pky">85.46</td>
-    <td class="tg-0pky">85.12</td>
-    <td class="tg-0pky">85.74</td>
+    <td class="tg-0pky">86.70</td>
+    <td class="tg-0pky">86.34</td>
   </tr>
   <tr>
     <td class="tg-0pky">SciELO</td>
     <td class="tg-0pky">88.11</td>
     <td class="tg-0pky">87.75</td>
-    <td class="tg-0pky">89.99</td>
-    <td class="tg-0pky">87.24</td>
+    <td class="tg-0pky">86.99</td>
+    <td class="tg-0pky">87.58</td>
   </tr>
   <tr>
     <td class="tg-0pky">SciELO+Wiki</td>
-    <td class="tg-0pky">87.95</td>
-    <td class="tg-0pky">87.78</td>
-    <td class="tg-0pky">86.56</td>
-    <td class="tg-0pky">88.10</td>
+    <td class="tg-0pky">88.68</td>
+    <td class="tg-0pky">86.58</td>
+    <td class="tg-0pky">86.65</td>
+    <td class="tg-0pky">85.27</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="3">Skip-gram</td>
     <td class="tg-0pky">Wiki</td>
     <td class="tg-0pky">88.82</td>
     <td class="tg-0pky">87.16</td>
-    <td class="tg-0pky">88.77</td>
-    <td class="tg-0pky">87.21</td>
+    <td class="tg-0pky">88.31</td>
+    <td class="tg-0pky">87.43</td>
   </tr>
   <tr>
     <td class="tg-0pky">SciELO</td>
     <td class="tg-0pky">89.66</td>
     <td class="tg-0pky">88.77</td>
-    <td class="tg-0pky">89.07</td>
-    <td class="tg-0pky">89.17</td>
+    <td class="tg-0pky">89.57</td>
+    <td class="tg-0pky">89.61</td>
   </tr>
   <tr>
     <td class="tg-0pky">SciELO+Wiki</td>
     <td class="tg-0pky">88.76</td>
     <td class="tg-0pky">88.64</td>
-    <td class="tg-0pky">89.71</td>
-    <td class="tg-fymr"><b>89.74</b></td>
+    <td class="tg-0pky">89.82</td>
+    <td class="tg-fymr">88.28</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">v3.0</td>
