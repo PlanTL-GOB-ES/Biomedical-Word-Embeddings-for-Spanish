@@ -117,7 +117,16 @@ We replicated the extrinsic evaluation from the paper [Medical word embeddings f
 </table>
 
 ## Citing
-TBA
+```
+@misc{temu2021spanish,
+      title={Spanish Biomedical and Clinical Language Embeddings}, 
+      author={Asier Gutiérrez-Fandiño and Jordi Armengol-Estapé and Casimiro Pio Carrino and Ona De Gibert and Aitor Gonzalez-Agirre and Marta Villegas},
+      year={2021},
+      eprint={2102.12843},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## License
 
