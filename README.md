@@ -1,14 +1,13 @@
 # Biomedical Word Embeddings for Spanish: Development and Evaluation (v3.0)
 
-## Digital Object Identifier (DOI) and access to files
+## Digital Object Identifier (DOI)
 
-https://doi.org/10.5281/zenodo.4543235
-
-## Corpora used
-TBA
-
-## Preprocessing
-Fundamental corpus cleaning and tokenization. For uncased embeddings, text uncasing.
+Files:
+- Paper: https://arxiv.org/abs/2102.12843
+- Biomedical Word Embeddings: https://doi.org/10.5281/zenodo.4543235
+- Biomedical Sub-word Embeddings: http://doi.org/10.5281/zenodo.4557459
+- Clinical Word Embeddings: http://doi.org/10.5281/zenodo.4552042
+- Clinical Sub-word Embeddings: http://doi.org/10.5281/zenodo.4555598
 
 ## Evaluation
 
